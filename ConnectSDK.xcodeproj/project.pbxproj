@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -385,6 +385,34 @@
 		EA61EBF218FE48EF00D75696 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA61EBF118FE48EF00D75696 /* MobileCoreServices.framework */; };
 		EAD7F85E1906E98200B33AAB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD7F85D1906E98200B33AAB /* AVFoundation.framework */; };
 		EAD7F8601906E99C00B33AAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD7F85F1906E99C00B33AAB /* UIKit.framework */; };
+		FF78714F2C84765D006AC33E /* NSString+m3u8.h in Headers */ = {isa = PBXBuildFile; fileRef = FF78712F2C84765D006AC33E /* NSString+m3u8.h */; };
+		FF7871502C84765D006AC33E /* NSString+m3u8.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7871302C84765D006AC33E /* NSString+m3u8.m */; };
+		FF7871512C84765D006AC33E /* NSURL+m3u8.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7871312C84765D006AC33E /* NSURL+m3u8.h */; };
+		FF7871522C84765D006AC33E /* NSURL+m3u8.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7871322C84765D006AC33E /* NSURL+m3u8.m */; };
+		FF7871532C84765D006AC33E /* M3U8ExtXKey.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7871342C84765D006AC33E /* M3U8ExtXKey.h */; };
+		FF7871542C84765D006AC33E /* M3U8ExtXKey.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7871352C84765D006AC33E /* M3U8ExtXKey.m */; };
+		FF7871552C84765D006AC33E /* M3U8ExtXMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7871362C84765D006AC33E /* M3U8ExtXMedia.h */; };
+		FF7871562C84765D006AC33E /* M3U8ExtXMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7871372C84765D006AC33E /* M3U8ExtXMedia.m */; };
+		FF7871572C84765D006AC33E /* M3U8ExtXMediaList.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7871382C84765D006AC33E /* M3U8ExtXMediaList.h */; };
+		FF7871582C84765D006AC33E /* M3U8ExtXMediaList.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7871392C84765D006AC33E /* M3U8ExtXMediaList.m */; };
+		FF7871592C84765D006AC33E /* M3U8ExtXStreamInf.h in Headers */ = {isa = PBXBuildFile; fileRef = FF78713A2C84765D006AC33E /* M3U8ExtXStreamInf.h */; };
+		FF78715A2C84765D006AC33E /* M3U8ExtXStreamInf.m in Sources */ = {isa = PBXBuildFile; fileRef = FF78713B2C84765D006AC33E /* M3U8ExtXStreamInf.m */; };
+		FF78715B2C84765D006AC33E /* M3U8ExtXStreamInfList.h in Headers */ = {isa = PBXBuildFile; fileRef = FF78713C2C84765D006AC33E /* M3U8ExtXStreamInfList.h */; };
+		FF78715C2C84765D006AC33E /* M3U8ExtXStreamInfList.m in Sources */ = {isa = PBXBuildFile; fileRef = FF78713D2C84765D006AC33E /* M3U8ExtXStreamInfList.m */; };
+		FF78715D2C84765D006AC33E /* M3U8MasterPlaylist.h in Headers */ = {isa = PBXBuildFile; fileRef = FF78713E2C84765D006AC33E /* M3U8MasterPlaylist.h */; };
+		FF78715E2C84765D006AC33E /* M3U8MasterPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = FF78713F2C84765D006AC33E /* M3U8MasterPlaylist.m */; };
+		FF78715F2C84765D006AC33E /* M3U8LineReader.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7871412C84765D006AC33E /* M3U8LineReader.h */; };
+		FF7871602C84765D006AC33E /* M3U8LineReader.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7871422C84765D006AC33E /* M3U8LineReader.m */; };
+		FF7871612C84765D006AC33E /* M3U8MediaPlaylist.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7871432C84765D006AC33E /* M3U8MediaPlaylist.h */; };
+		FF7871622C84765D006AC33E /* M3U8MediaPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7871442C84765D006AC33E /* M3U8MediaPlaylist.m */; };
+		FF7871632C84765D006AC33E /* M3U8SegmentInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7871452C84765D006AC33E /* M3U8SegmentInfo.h */; };
+		FF7871642C84765D006AC33E /* M3U8SegmentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7871462C84765D006AC33E /* M3U8SegmentInfo.m */; };
+		FF7871652C84765D006AC33E /* M3U8SegmentInfoList.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7871472C84765D006AC33E /* M3U8SegmentInfoList.h */; };
+		FF7871662C84765D006AC33E /* M3U8SegmentInfoList.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7871482C84765D006AC33E /* M3U8SegmentInfoList.m */; };
+		FF7871672C84765D006AC33E /* M3U8Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = FF78714A2C84765D006AC33E /* M3U8Kit.h */; };
+		FF7871682C84765D006AC33E /* M3U8PlaylistModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FF78714B2C84765D006AC33E /* M3U8PlaylistModel.h */; };
+		FF7871692C84765D006AC33E /* M3U8PlaylistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF78714C2C84765D006AC33E /* M3U8PlaylistModel.m */; };
+		FF78716A2C84765D006AC33E /* M3U8TagsAndAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = FF78714D2C84765D006AC33E /* M3U8TagsAndAttributes.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -795,6 +823,34 @@
 		EA61EBF118FE48EF00D75696 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		EAD7F85D1906E98200B33AAB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		EAD7F85F1906E99C00B33AAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF78712F2C84765D006AC33E /* NSString+m3u8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+m3u8.h"; sourceTree = "<group>"; };
+		FF7871302C84765D006AC33E /* NSString+m3u8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+m3u8.m"; sourceTree = "<group>"; };
+		FF7871312C84765D006AC33E /* NSURL+m3u8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+m3u8.h"; sourceTree = "<group>"; };
+		FF7871322C84765D006AC33E /* NSURL+m3u8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+m3u8.m"; sourceTree = "<group>"; };
+		FF7871342C84765D006AC33E /* M3U8ExtXKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8ExtXKey.h; sourceTree = "<group>"; };
+		FF7871352C84765D006AC33E /* M3U8ExtXKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8ExtXKey.m; sourceTree = "<group>"; };
+		FF7871362C84765D006AC33E /* M3U8ExtXMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8ExtXMedia.h; sourceTree = "<group>"; };
+		FF7871372C84765D006AC33E /* M3U8ExtXMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8ExtXMedia.m; sourceTree = "<group>"; };
+		FF7871382C84765D006AC33E /* M3U8ExtXMediaList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8ExtXMediaList.h; sourceTree = "<group>"; };
+		FF7871392C84765D006AC33E /* M3U8ExtXMediaList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8ExtXMediaList.m; sourceTree = "<group>"; };
+		FF78713A2C84765D006AC33E /* M3U8ExtXStreamInf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8ExtXStreamInf.h; sourceTree = "<group>"; };
+		FF78713B2C84765D006AC33E /* M3U8ExtXStreamInf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8ExtXStreamInf.m; sourceTree = "<group>"; };
+		FF78713C2C84765D006AC33E /* M3U8ExtXStreamInfList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8ExtXStreamInfList.h; sourceTree = "<group>"; };
+		FF78713D2C84765D006AC33E /* M3U8ExtXStreamInfList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8ExtXStreamInfList.m; sourceTree = "<group>"; };
+		FF78713E2C84765D006AC33E /* M3U8MasterPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8MasterPlaylist.h; sourceTree = "<group>"; };
+		FF78713F2C84765D006AC33E /* M3U8MasterPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8MasterPlaylist.m; sourceTree = "<group>"; };
+		FF7871412C84765D006AC33E /* M3U8LineReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8LineReader.h; sourceTree = "<group>"; };
+		FF7871422C84765D006AC33E /* M3U8LineReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8LineReader.m; sourceTree = "<group>"; };
+		FF7871432C84765D006AC33E /* M3U8MediaPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8MediaPlaylist.h; sourceTree = "<group>"; };
+		FF7871442C84765D006AC33E /* M3U8MediaPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8MediaPlaylist.m; sourceTree = "<group>"; };
+		FF7871452C84765D006AC33E /* M3U8SegmentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8SegmentInfo.h; sourceTree = "<group>"; };
+		FF7871462C84765D006AC33E /* M3U8SegmentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8SegmentInfo.m; sourceTree = "<group>"; };
+		FF7871472C84765D006AC33E /* M3U8SegmentInfoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8SegmentInfoList.h; sourceTree = "<group>"; };
+		FF7871482C84765D006AC33E /* M3U8SegmentInfoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8SegmentInfoList.m; sourceTree = "<group>"; };
+		FF78714A2C84765D006AC33E /* M3U8Kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8Kit.h; sourceTree = "<group>"; };
+		FF78714B2C84765D006AC33E /* M3U8PlaylistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8PlaylistModel.h; sourceTree = "<group>"; };
+		FF78714C2C84765D006AC33E /* M3U8PlaylistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8PlaylistModel.m; sourceTree = "<group>"; };
+		FF78714D2C84765D006AC33E /* M3U8TagsAndAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8TagsAndAttributes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1320,6 +1376,7 @@
 		EA5FB79C199AEC550057B4B4 /* core */ = {
 			isa = PBXGroup;
 			children = (
+				FF78714E2C84765D006AC33E /* M3U8Kit */,
 				EA5F82F3199BDCD300B7302B /* ConnectSDK.h */,
 				EA5FB79E199AEC550057B4B4 /* ConnectSDK-Prefix.pch */,
 				EA5FB79F199AEC550057B4B4 /* Devices */,
@@ -1775,6 +1832,65 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FF7871332C84765D006AC33E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FF78712F2C84765D006AC33E /* NSString+m3u8.h */,
+				FF7871302C84765D006AC33E /* NSString+m3u8.m */,
+				FF7871312C84765D006AC33E /* NSURL+m3u8.h */,
+				FF7871322C84765D006AC33E /* NSURL+m3u8.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		FF7871402C84765D006AC33E /* Master Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				FF7871342C84765D006AC33E /* M3U8ExtXKey.h */,
+				FF7871352C84765D006AC33E /* M3U8ExtXKey.m */,
+				FF7871362C84765D006AC33E /* M3U8ExtXMedia.h */,
+				FF7871372C84765D006AC33E /* M3U8ExtXMedia.m */,
+				FF7871382C84765D006AC33E /* M3U8ExtXMediaList.h */,
+				FF7871392C84765D006AC33E /* M3U8ExtXMediaList.m */,
+				FF78713A2C84765D006AC33E /* M3U8ExtXStreamInf.h */,
+				FF78713B2C84765D006AC33E /* M3U8ExtXStreamInf.m */,
+				FF78713C2C84765D006AC33E /* M3U8ExtXStreamInfList.h */,
+				FF78713D2C84765D006AC33E /* M3U8ExtXStreamInfList.m */,
+				FF78713E2C84765D006AC33E /* M3U8MasterPlaylist.h */,
+				FF78713F2C84765D006AC33E /* M3U8MasterPlaylist.m */,
+			);
+			path = "Master Playlist";
+			sourceTree = "<group>";
+		};
+		FF7871492C84765D006AC33E /* Media Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				FF7871412C84765D006AC33E /* M3U8LineReader.h */,
+				FF7871422C84765D006AC33E /* M3U8LineReader.m */,
+				FF7871432C84765D006AC33E /* M3U8MediaPlaylist.h */,
+				FF7871442C84765D006AC33E /* M3U8MediaPlaylist.m */,
+				FF7871452C84765D006AC33E /* M3U8SegmentInfo.h */,
+				FF7871462C84765D006AC33E /* M3U8SegmentInfo.m */,
+				FF7871472C84765D006AC33E /* M3U8SegmentInfoList.h */,
+				FF7871482C84765D006AC33E /* M3U8SegmentInfoList.m */,
+			);
+			path = "Media Playlist";
+			sourceTree = "<group>";
+		};
+		FF78714E2C84765D006AC33E /* M3U8Kit */ = {
+			isa = PBXGroup;
+			children = (
+				FF7871332C84765D006AC33E /* Categories */,
+				FF7871402C84765D006AC33E /* Master Playlist */,
+				FF7871492C84765D006AC33E /* Media Playlist */,
+				FF78714A2C84765D006AC33E /* M3U8Kit.h */,
+				FF78714B2C84765D006AC33E /* M3U8PlaylistModel.h */,
+				FF78714C2C84765D006AC33E /* M3U8PlaylistModel.m */,
+				FF78714D2C84765D006AC33E /* M3U8TagsAndAttributes.h */,
+			);
+			path = M3U8Kit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1782,9 +1898,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7871652C84765D006AC33E /* M3U8SegmentInfoList.h in Headers */,
+				FF7871592C84765D006AC33E /* M3U8ExtXStreamInf.h in Headers */,
 				EA5FB8D9199AEC560057B4B4 /* ToastControl.h in Headers */,
 				44C2CC941AB7948300B20E46 /* XMLWriter+ConvenienceMethods.h in Headers */,
 				44316EFE1AF2F04B000FE655 /* FireTVDiscoveryProvider.h in Headers */,
+				FF7871512C84765D006AC33E /* NSURL+m3u8.h in Headers */,
 				EA5FB8A9199AEC560057B4B4 /* GCDWebServerMultiPartFormRequest.h in Headers */,
 				EA5FB891199AEC560057B4B4 /* CTASIHTTPRequestDelegate.h in Headers */,
 				EA5FB8B9199AEC560057B4B4 /* CTXMLReader.h in Headers */,
@@ -1826,27 +1945,32 @@
 				EA5FB90F199AEC570057B4B4 /* CastServiceChannel.h in Headers */,
 				EA5FB8CC199AEC560057B4B4 /* TextInputStatusInfo.h in Headers */,
 				EA5FB88C199AEC560057B4B4 /* CTASIFormDataRequest.h in Headers */,
+				FF78715F2C84765D006AC33E /* M3U8LineReader.h in Headers */,
 				EA5FB8C1199AEC560057B4B4 /* ConnectUtil.h in Headers */,
 				EA5FB8DA199AEC560057B4B4 /* TVControl.h in Headers */,
 				EA5FB8AD199AEC560057B4B4 /* GCDWebServerDataResponse.h in Headers */,
 				EA5FB8E2199AEC560057B4B4 /* ServiceSubscription.h in Headers */,
 				EA5FB8E8199AEC560057B4B4 /* ServiceConfigDelegate.h in Headers */,
+				FF7871532C84765D006AC33E /* M3U8ExtXKey.h in Headers */,
 				EA5FB8D7199AEC560057B4B4 /* PowerControl.h in Headers */,
 				EA5FB8F0199AEC570057B4B4 /* DIALService.h in Headers */,
 				44EF618B1A12DC7E00CF344C /* ConnectSDK-Prefix.pch in Headers */,
 				EA5FB8F2199AEC570057B4B4 /* DLNAService.h in Headers */,
 				EA5FB8D3199AEC560057B4B4 /* Launcher.h in Headers */,
 				44A5519F1AC36672001AF783 /* CommonMacros.h in Headers */,
+				FF7871552C84765D006AC33E /* M3U8ExtXMedia.h in Headers */,
 				EA5FB8FA199AEC570057B4B4 /* WebOSTVServiceSocketClient.h in Headers */,
 				EA5FB890199AEC560057B4B4 /* CTASIHTTPRequestConfig.h in Headers */,
 				EA5FB899199AEC560057B4B4 /* GCDWebServer.h in Headers */,
 				44BCC3F61AB77F7D001BCDAA /* XMLWriter.h in Headers */,
 				EA5FB8C3199AEC560057B4B4 /* DeviceServiceReachability.h in Headers */,
+				FF78715D2C84765D006AC33E /* M3U8MasterPlaylist.h in Headers */,
 				EA5FB90D199AEC570057B4B4 /* CastService.h in Headers */,
 				EA5FB885199AEC560057B4B4 /* CTASICacheDelegate.h in Headers */,
 				EA5FB870199AEC550057B4B4 /* ConnectableDeviceDelegate.h in Headers */,
 				EA5FB8D2199AEC560057B4B4 /* KeyControl.h in Headers */,
 				EA5FB8A0199AEC560057B4B4 /* GCDWebServerPrivate.h in Headers */,
+				FF7871612C84765D006AC33E /* M3U8MediaPlaylist.h in Headers */,
 				EA5FB8F6199AEC570057B4B4 /* AirPlayServiceMirrored.h in Headers */,
 				448B28781B041A5600DFF18F /* FireTVMediaPlayer.h in Headers */,
 				EA5FB883199AEC550057B4B4 /* CTASIAuthenticationDialog.h in Headers */,
@@ -1866,31 +1990,37 @@
 				EA5FB879199AEC550057B4B4 /* DiscoveryManager.h in Headers */,
 				EA5FB888199AEC560057B4B4 /* CTASIDataDecompressor.h in Headers */,
 				EA5FB88A199AEC560057B4B4 /* CTASIDownloadCache.h in Headers */,
+				FF7871572C84765D006AC33E /* M3U8ExtXMediaList.h in Headers */,
 				EA5FB897199AEC560057B4B4 /* CTReachability.h in Headers */,
 				EA5FB8D4199AEC560057B4B4 /* MediaControl.h in Headers */,
 				EA5FB8EB199AEC570057B4B4 /* WebOSTVServiceConfig.h in Headers */,
+				FF7871672C84765D006AC33E /* M3U8Kit.h in Headers */,
 				EA5FB8D0199AEC560057B4B4 /* Capability.h in Headers */,
 				EA5FB8EF199AEC570057B4B4 /* DeviceServiceDelegate.h in Headers */,
 				4494263E1AF83588006BAFF2 /* DispatchQueueBlockRunner.h in Headers */,
 				EA5FB87C199AEC550057B4B4 /* DiscoveryProvider.h in Headers */,
 				EA5FB8C7199AEC560057B4B4 /* JSONObjectCoding.h in Headers */,
 				44D0ECEF1B55DA9000E02A8B /* SubtitleInfo.h in Headers */,
+				FF7871682C84765D006AC33E /* M3U8PlaylistModel.h in Headers */,
 				EA5FB8F8199AEC570057B4B4 /* WebOSTVServiceMouse.h in Headers */,
 				EA5FB8A5199AEC560057B4B4 /* GCDWebServerDataRequest.h in Headers */,
 				EA5FB886199AEC560057B4B4 /* CTASIDataCompressor.h in Headers */,
 				EA5FB871199AEC550057B4B4 /* ConnectableDeviceStore.h in Headers */,
+				FF7871632C84765D006AC33E /* M3U8SegmentInfo.h in Headers */,
 				EA5FB8F4199AEC570057B4B4 /* AirPlayServiceHTTP.h in Headers */,
 				EA5FB874199AEC550057B4B4 /* DevicePicker.h in Headers */,
 				EA5FB8A1199AEC560057B4B4 /* GCDWebServerRequest.h in Headers */,
 				EA5FB8BF199AEC560057B4B4 /* ConnectError.h in Headers */,
 				EA5FB8BD199AEC560057B4B4 /* ChannelInfo.h in Headers */,
 				EA5FB8ED199AEC570057B4B4 /* DeviceService.h in Headers */,
+				FF78716A2C84765D006AC33E /* M3U8TagsAndAttributes.h in Headers */,
 				EA5FB89D199AEC560057B4B4 /* GCDWebServerFunctions.h in Headers */,
 				EA5FB8D8199AEC560057B4B4 /* TextInputControl.h in Headers */,
 				EA5FB8C8199AEC560057B4B4 /* ProgramInfo.h in Headers */,
 				449426301AF82F49006BAFF2 /* BlockRunner.h in Headers */,
 				44AD91771AFA7F1000C23A71 /* FireTVService.h in Headers */,
 				EA5FB87B199AEC550057B4B4 /* DiscoveryManagerDelegate.h in Headers */,
+				FF78714F2C84765D006AC33E /* NSString+m3u8.h in Headers */,
 				EA5FB8A7199AEC560057B4B4 /* GCDWebServerFileRequest.h in Headers */,
 				EA5FB8AF199AEC560057B4B4 /* GCDWebServerErrorResponse.h in Headers */,
 				EA5FB8B5199AEC560057B4B4 /* CTGuid.h in Headers */,
@@ -1908,6 +2038,7 @@
 				EA5FB8B7199AEC560057B4B4 /* LGSRWebSocket.h in Headers */,
 				EA5FB8B3199AEC560057B4B4 /* GCDWebServerStreamedResponse.h in Headers */,
 				0F446CC21A6D8353000BB1C0 /* PlayListControl.h in Headers */,
+				FF78715B2C84765D006AC33E /* M3U8ExtXStreamInfList.h in Headers */,
 				EA5F82F4199BDCD300B7302B /* ConnectSDK.h in Headers */,
 				EA5F82F0199BDA2100B7302B /* ConnectSDKDefaultPlatforms.h in Headers */,
 				BB9F726F85973936620CDADD /* MediaInfo.h in Headers */,
@@ -2212,6 +2343,7 @@
 				22D1EDCC282D0FBD00D74B56 /* MirroringSinkCapability.m in Sources */,
 				0F446CCA1A6D924D000BB1C0 /* MediaLaunchObject.m in Sources */,
 				EA5FB873199AEC550057B4B4 /* DefaultConnectableDeviceStore.m in Sources */,
+				FF78715A2C84765D006AC33E /* M3U8ExtXStreamInf.m in Sources */,
 				44D90AAD1B06B26C00A5CF2A /* AppStateChangeNotifier.m in Sources */,
 				EA5FB8E3199AEC560057B4B4 /* ServiceSubscription.m in Sources */,
 				EA5FB8F9199AEC570057B4B4 /* WebOSTVServiceMouse.m in Sources */,
@@ -2220,6 +2352,7 @@
 				EA5FB878199AEC550057B4B4 /* CapabilityFilter.m in Sources */,
 				44D0ECF01B55DA9000E02A8B /* SubtitleInfo.m in Sources */,
 				EA5FB8F3199AEC570057B4B4 /* DLNAService.m in Sources */,
+				FF7871662C84765D006AC33E /* M3U8SegmentInfoList.m in Sources */,
 				EA5FB8B8199AEC560057B4B4 /* LGSRWebSocket.m in Sources */,
 				44AD91781AFA7F1000C23A71 /* FireTVService.m in Sources */,
 				EA5FB8EC199AEC570057B4B4 /* WebOSTVServiceConfig.m in Sources */,
@@ -2227,6 +2360,7 @@
 				22D1EDCB282D0FBD00D74B56 /* MirroringSourceCapability.m in Sources */,
 				4494263F1AF83588006BAFF2 /* DispatchQueueBlockRunner.m in Sources */,
 				22D1EDC3282D0FBD00D74B56 /* CameraParameter.m in Sources */,
+				FF7871622C84765D006AC33E /* M3U8MediaPlaylist.m in Sources */,
 				EA5FB8FB199AEC570057B4B4 /* WebOSTVServiceSocketClient.m in Sources */,
 				EA5FB8C9199AEC560057B4B4 /* ProgramInfo.m in Sources */,
 				EA5FB8C6199AEC560057B4B4 /* ExternalInputInfo.m in Sources */,
@@ -2234,10 +2368,13 @@
 				EA5FB905199AEC570057B4B4 /* WebAppSession.m in Sources */,
 				EA5FB912199AEC570057B4B4 /* CastWebAppSession.m in Sources */,
 				EA5FB87A199AEC550057B4B4 /* DiscoveryManager.m in Sources */,
+				FF78715E2C84765D006AC33E /* M3U8MasterPlaylist.m in Sources */,
 				EA5FB903199AEC570057B4B4 /* LaunchSession.m in Sources */,
 				EA5FB8A8199AEC560057B4B4 /* GCDWebServerFileRequest.m in Sources */,
 				EA5FB880199AEC550057B4B4 /* SSDPDiscoveryProvider.m in Sources */,
+				FF7871562C84765D006AC33E /* M3U8ExtXMedia.m in Sources */,
 				EA5FB8CD199AEC560057B4B4 /* TextInputStatusInfo.m in Sources */,
+				FF78715C2C84765D006AC33E /* M3U8ExtXStreamInfList.m in Sources */,
 				22D1EDC5282D0FBD00D74B56 /* WebOSTVService+LGCast.m in Sources */,
 				EA5FB8EE199AEC570057B4B4 /* DeviceService.m in Sources */,
 				EA5FB875199AEC550057B4B4 /* DevicePicker.m in Sources */,
@@ -2252,6 +2389,7 @@
 				EA5FB8BE199AEC560057B4B4 /* ChannelInfo.m in Sources */,
 				EA5FB90A199AEC570057B4B4 /* WebOSTVService.m in Sources */,
 				EA5FB8BA199AEC560057B4B4 /* CTXMLReader.m in Sources */,
+				FF7871522C84765D006AC33E /* NSURL+m3u8.m in Sources */,
 				22D1EDBE282D0FBD00D74B56 /* CameraSourceCapability.m in Sources */,
 				EA5FB90C199AEC570057B4B4 /* CastDiscoveryProvider.m in Sources */,
 				EA5FB88D199AEC560057B4B4 /* CTASIFormDataRequest.m in Sources */,
@@ -2272,17 +2410,21 @@
 				EA5FB8A4199AEC560057B4B4 /* GCDWebServerResponse.m in Sources */,
 				44BCC3F71AB77F7D001BCDAA /* XMLWriter.m in Sources */,
 				44A499061B0AD0C1002C94E7 /* FireTVCapabilityMixin.m in Sources */,
+				FF7871542C84765D006AC33E /* M3U8ExtXKey.m in Sources */,
 				EA5FB89A199AEC560057B4B4 /* GCDWebServer.m in Sources */,
 				EA5FB8FD199AEC570057B4B4 /* NetcastTVService.m in Sources */,
 				EA5FB901199AEC570057B4B4 /* AirPlayWebAppSession.m in Sources */,
 				4498D98D1A659F43008C0B72 /* NSDictionary+KeyPredicateSearch.m in Sources */,
+				FF7871602C84765D006AC33E /* M3U8LineReader.m in Sources */,
 				EA5FB882199AEC550057B4B4 /* ZeroConfDiscoveryProvider.m in Sources */,
 				44C2CC951AB7948300B20E46 /* XMLWriter+ConvenienceMethods.m in Sources */,
 				448B28791B041A5600DFF18F /* FireTVMediaPlayer.m in Sources */,
 				EA5FB8F5199AEC570057B4B4 /* AirPlayServiceHTTP.m in Sources */,
+				FF7871502C84765D006AC33E /* NSString+m3u8.m in Sources */,
 				449426391AF830A1006BAFF2 /* SynchronousBlockRunner.m in Sources */,
 				EA5FB8E5199AEC560057B4B4 /* NetcastTVServiceConfig.m in Sources */,
 				EA5FB88F199AEC560057B4B4 /* CTASIHTTPRequest.m in Sources */,
+				FF7871692C84765D006AC33E /* M3U8PlaylistModel.m in Sources */,
 				441C9ED61B3DBCB200F912D5 /* SubscriptionDeduplicator.m in Sources */,
 				22D1EDC9282D0FBD00D74B56 /* ScreenMirroringService.m in Sources */,
 				EA5FB89C199AEC560057B4B4 /* GCDWebServerConnection.m in Sources */,
@@ -2294,7 +2436,9 @@
 				BB9F7B7905ABBE72E0843AA0 /* MediaInfo.m in Sources */,
 				BB9F776F4924E08D116738B1 /* ImageInfo.m in Sources */,
 				BB9F706B1155B806AFBF3336 /* DLNAHTTPServer.m in Sources */,
+				FF7871642C84765D006AC33E /* M3U8SegmentInfo.m in Sources */,
 				B2FA8F2EAE3B0B60D75F9647 /* CapabilityConstants.m in Sources */,
+				FF7871582C84765D006AC33E /* M3U8ExtXMediaList.m in Sources */,
 				B2FA8A641C2CBEAFB9CF9097 /* NSMutableDictionary+NilSafe.m in Sources */,
 				22D1EDC7282D0FBD00D74B56 /* MobileCapability.m in Sources */,
 			);
